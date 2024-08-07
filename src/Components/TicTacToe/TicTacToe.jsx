@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './TicTacToe.css'
-import CircleIcon from '../Assets/Circle.png'
+import Circle from '../Assets/Circle.png'
 import X_icon from '../Assets/X-icon.png'
 
 let data = ["","","","","","","","",""];
@@ -31,7 +31,7 @@ const TicTacToe = () => {
             data[num] = "X";
             setCount(++count);
         }else{
-            e.target.innerHTML = `<img className ='circle' src = ${CircleIcon}/>`
+            e.target.innerHTML = `<img className ='circle' src = ${Circle}/>`
             data[num] = "O";
             setCount(++count);
         }
