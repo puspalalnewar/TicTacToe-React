@@ -29,6 +29,8 @@
 }
 .boxes{
     display: flex;
+    justify-content: center;
+    overflow: hidden;
     height: 180px;
     width: 180px;
     background: #1f3540;
@@ -41,4 +43,7 @@
     height: 600px;
     width: 564px;
     margin: auto;
+}
+.circle{
+
 }
